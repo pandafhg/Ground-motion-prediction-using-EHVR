@@ -1,1 +1,1 @@
-# Ground-motion-prediction-Using-EHVR
+# Ground-motion-prediction-using-EHVR
