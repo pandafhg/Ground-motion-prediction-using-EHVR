@@ -54,6 +54,7 @@ The temp.csv file contains seismic data, with a focus on different frequency mea
 •	eq_location_type_id: A numerical identifier used to categorize the type of earthquake location. 1: CRUSTAL; 2: INTERPLATE; 3: INTRAPLATE. Note that INTRAPLATE is not within the applicable range of this model.
 
 •	Subsequent columns from 0.100Hz to 20.000Hz represent EHVR at specific frequencies measured in Hz. Each of these columns shows the EHVR measurement (non-logarithmic value) at that frequency.
-
+# Description of Output Files:
+Please note: In this program, the pre_DNN_** in the output file corresponds to the CorrectDNN as described in Equation 3 of the paper. This value represents the correction output using the DNN model based on EHVR. The final predicted values are then calculated using Equation 3, which corresponds to the Final_** (logarithmic values) in the output file.
 
 Before using this script, make sure your environment is properly configured and understand how different parts of the code work together so that you can make appropriate adjustments as needed.
